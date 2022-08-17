@@ -20,15 +20,14 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-1) We have cleaned and visualized the data, treated for outlier and imputed values as and when required and prepared the model for training. 
+1) We have loaded and visualized the data and built a first layer with max-pooling, dropout layers and using functions like relu and softmax. 
 
-2) The train and test scores for linear regression were 92.12% and 89.43% respectively. 
+2) Low model accuracies were observed and model overfitting was observed and subsequently data augmentation was used to overcome the model overfitting. 
 
-3) The train and test scores for ridge regression were 92.11% and 89.39% respectively.
+3) Data augmentation improved model overfitting cases.
 
-4) The train and test scores for lasso regression were 91.74% and 88.70% respectively.
+4) Class imbalance was checked and then Augmentor library was used woth 500 additional images to improve model accuracy and treat for model overfitting.
 
-5) As we can see there is not much difference in the model performances in the three cases, however lasso regression model performs ever so slightly better than the other two models. The most important predictor values determined from the analysis were as follows- GrLivArea, OverallQual, MSZoning_RL, MSZoning_RM, TotalBsmtSF 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
