@@ -11,11 +11,11 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Advanced linear regression is performed on the dataset.
-- The project is done as part of coursework in the Machine Learning module. 
-- We are trying to model the price of houses with the available independent variables. 
-- The Surprise Housing dataset is being used. 
-- Regularization is focused on this dataset with ridge and lasso regression used. 
+- Convolutional Neural Network is made and used on the dataset.
+- The project is done as part of coursework in the Deep Learning module. 
+- The idea is to build a multi-class classification CNN based model which can accurately detect melanoma.. 
+- The International Skin Imaging Collaboration (ISIC) dataset is being used. 
+- Data Augmentation is focused on this dataset with dropout layers and normalization. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
